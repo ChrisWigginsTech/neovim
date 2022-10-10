@@ -3,8 +3,9 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     -- packer manages itself
   use 'wbthomason/packer.nvim'
-  use 'tanvirtin/monokai.nvim' -- monokai pro colorscheme, ported to lua 
+--  use 'tanvirtin/monokai.nvim' -- monokai pro colorscheme, ported to lua 
 --  use 'pineapplegiant/spaceduck'
+  use 'sainnhe/everforest'
 
   use {
   'nvim-lualine/lualine.nvim',
